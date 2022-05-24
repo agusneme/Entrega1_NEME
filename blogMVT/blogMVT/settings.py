@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blogMVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\User\Desktop\Entrega_Intermedia-CODERHOUSE\blogMVT\blogAPP\templates\blogApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
