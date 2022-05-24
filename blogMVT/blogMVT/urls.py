@@ -19,6 +19,5 @@ from blogMVT.views import saludo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/', saludo)
-
+    path('blogAPP/', include('blogAPP.urls')),
 ]
