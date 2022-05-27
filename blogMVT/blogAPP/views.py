@@ -2,7 +2,20 @@ from django.shortcuts import render, HttpResponse
 from django.http import HttpResponse
 
 # Create your views here.
-def index(request):
+def inicio(request):
 
-    return render(request, 'blogAPP/index.html')
+      return render(request, "blogAPP/inicio.html")
 
+
+def estudiantes(request):
+
+      return render(request, "blogAPP/estudiantes.html")
+
+
+def camada(request):
+
+        return render(request, 'blogAPP/camada.html')
+
+
+def profesores(request):
+        return render(request, 'blogAPP/profesores.html')
